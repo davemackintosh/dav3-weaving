@@ -23,4 +23,3 @@ With over two decades of experience in the software development industry, I have
 {% for post in content.blog %}
 {% render "post-card", post: post %}
 {% endfor %}
-
