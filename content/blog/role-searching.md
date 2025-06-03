@@ -9,6 +9,7 @@ keywords:
 excerpt: So, after 5 years of relative success as a freelancer I'm looking for a role in a company I can add value to. But why?
 author: davemackintosh
 published: Sun Oct 06 2019 19:19:36 GMT+0100 (GMT+01:00)
+template: post
 ---
 
 It was 2014, I had started contracting again and I decided one day that I needed to set up my own company and take home the whole packet. Of course, it wasn't; as most things, that simple. I founded Dav3 (I know, I know) and I started freelancing again straight away.

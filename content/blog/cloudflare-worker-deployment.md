@@ -11,6 +11,7 @@ keywords:
 excerpt: Took me a few minutes to work out how to publish my wrangler worker to a custom domain from my Github action based on the environment from the branch.
 author: davemackintosh
 published: 2025-03-04T20:57:24.394Z
+template: post
 ---
 
 I have a project at the moment and given that Vercel doesn't let you deploy private repos for free anymore I decided to try out CloudFlare workers instead of coming up with some complex mechanism to deploy my Next.JS app to S3.
@@ -25,6 +26,7 @@ The action is quite simple, I have a workflow that listens to the success status
 
 This is my Next.JS Cloudflare Worker deployment Github action.
 
+{% raw %}
 ```yaml
 name: Deploy Worker
 on:
@@ -58,9 +60,11 @@ jobs:
     - name: Deploy Worker
       run: yarn deploy:worker --env ${{ steps.extract_branch.outputs.branch }}
 ```
+{% endraw %}
 
 Breaking it down,
 
+{% raw %}
 *   **`name: Deploy Worker`**:
     *   This line defines the name of the GitHub Actions workflow, which will appear in your repository's Actions tab.
 *   **`on:`**:
@@ -81,7 +85,7 @@ Breaking it down,
 *   **`jobs:`**:
     *   **`deploy_worker:`**:
     *   **`runs-on: ubuntu-latest`**:
-    *   **`if: ${{ github.event.workflow_run.conclusion == 'success' }}`**:
+    *   **`if ${{ github.event.workflow_run.conclusion == 'success' }}`**:
         *   This line ensures that this job only runs if the preceding "Test" workflow completed successfully.
     *   **`steps:`**:
     *   **`name: Extract branch name`**:
@@ -99,6 +103,7 @@ Breaking it down,
     *   **`name: Deploy Worker`**:
     *   **`run: yarn deploy:worker --env ${{ steps.extract_branch.outputs.branch }}`**:
         *   This command executes the `deploy:worker` script defined in your `package.json` file, passing the extracted branch name as the `--env` argument. This is copy and pasted from the generic wrangler instructions.
+    {% endraw %}
 
 
 ### And this is my `wrangler.jsonc` file:

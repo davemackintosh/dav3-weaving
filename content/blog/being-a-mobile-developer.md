@@ -11,6 +11,7 @@ keywords:
 excerpt: Dave Mackintosh has developed websites, apps and libraries on mobile since 2012. here's a list of the reasons I can think of why its amazing and sometimes career saving.
 author: davemackintosh
 published: Tue Dec 11 2018 19:55:00 GMT+0000
+template: post
 ---
 
 I've been developing things on mobile devices since 2012, I started on my jailbroken iPad 1. i think it was iOS 5!

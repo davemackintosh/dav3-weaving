@@ -18,6 +18,7 @@ keywords:
 excerpt: This post explores our approach to building robust serverless Lambdas in Rust using Hexagonal Architecture and a custom, type-safe middleware pattern. By separating core logic from external concerns and leveraging Rust's powerful type system for dependency injection via TupleOfAdapters, we achieve cleaner code, enhanced testability, and greater adaptability to evolving requirements in our serverless platform.
 author: davemackintosh
 published: 2025-04-30 08:55:00
+template: post
 ---
 
 Alright, fellow Rustaceans! Let's chat about how we're building our serverless Lambdas. I've landed on a combo that keeps things super clean and makes our lives way easier down the line: Hexagonal Architecture mixed with our own spin on middleware, all powered by the awesome-ness of Rust.

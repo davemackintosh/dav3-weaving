@@ -9,6 +9,7 @@ keywords:
   - web midi
 author: davemackintosh
 published: Sun Sep 20 2015 19:55:00 GMT+0000
+template: post
 ---
 
 I recently released Widi, a really really small library for connecting midi devices to the web and during it's development I wanted to use ES6 and Babel.

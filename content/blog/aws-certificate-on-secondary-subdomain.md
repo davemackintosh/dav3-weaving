@@ -12,6 +12,7 @@ keywords:
 excerpt: Is your AWS certificate manager certificate stuck in pending? I was trying to deploy a certificate for a secondary subdomain and it was stuck in pending but it has a very simple fix.
 author: davemackintosh
 published: 2024-05-20T17:57:24.394Z
+template: post
 ---
 
 AWS certificate stuck in pending for subdomain or secondary subdomain?

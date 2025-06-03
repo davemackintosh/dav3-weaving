@@ -14,6 +14,7 @@ keywords:
 excerpt: I've been evolving my dotfiles for a few years now, here's how to use what I have to get a developer friendly, semantic and useful terminal wherever you are.
 author: davemackintosh
 published: 2024-01-02T07:30:24.394Z
+template: post
 ---
 
 Following on from my [post from 2020](/blog/using-my-dotfiles) and tangentially from my ["being a mobile developer"](/blog/being-a-mobile-developer) from 2018, my dotfiles have continually evolved to bring me the smoothest and fastest developer experience wherever I am. This is a natural evolution as I've worked with many a great mind between then and now, and my being an eternally lazy person looking for the easiest way to be comfortable in any environment.

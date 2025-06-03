@@ -18,6 +18,7 @@ keywords:
 excerpt: This post explores a practical CQRS and Event Streaming framework built in Rust, demonstrating how to separate read and write operations for enhanced performance and maintainability.
 author: davemackintosh
 published: 2025-05-01 14:23:00
+template: post
 ---
 
 > All the code in this blog post is for a previous version of this framework, it might be missing some bits but I still feel it's good to share knowledge.
