@@ -4,11 +4,12 @@
 		flex-direction: row;
 
 		aside {
-			flex: 1;
+			flex: 2;
+			padding: 1rem;
 		}
 
 		article {
-			flex: 2;
+			flex: 3;
 		}
 	}
 }
