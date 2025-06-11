@@ -8,7 +8,7 @@ keywords:
   - job
 excerpt: So, after 5 years of relative success as a freelancer I'm looking for a role in a company I can add value to. But why?
 author: davemackintosh
-published: Sun Oct 06 2019 19:19:36 GMT+0100 (GMT+01:00)
+published: 06/10/2019 19:19:36
 template: post
 ---
 

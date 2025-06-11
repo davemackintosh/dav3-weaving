@@ -4,8 +4,26 @@
 		flex-direction: row;
 
 		aside {
-			flex: 2;
+			flex: 1;
 			padding: 1rem;
+
+			&.contents {
+				position: sticky;
+				top: var(--headerHeight);
+				align-self: flex-start;
+
+				strong {
+					font-size: 1.2em;
+				}
+
+				li {
+					padding: 0.5em;
+
+					a {
+						font-weight: 700;
+					}
+				}
+			}
 		}
 
 		article {

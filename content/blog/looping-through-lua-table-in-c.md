@@ -11,7 +11,7 @@ keywords:
   - Iterate
 excerpt: Took me a while to figure it out and a lot of non-helpful Googling but looping over a table from Lua using the C API turns out to be pretty simple although not intuitive at all.
 author: davemackintosh
-published: Thu Jan 22 2020 1:21:46
+published: 01/22/2020 1:21:46
 template: post
 ---
 

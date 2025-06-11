@@ -21,7 +21,7 @@
 				"@context": "http://schema.org/",
 				"@type": "Person",
 				"name": "Dave Mackintosh",
-				"jobTitle": "lead developer | principle engineer",
+				"jobTitle": "lead developer | engineering manager",
 				"address": {
 					"@type": "PostalAddress",
 					"addressLocality": "Chichester",
@@ -29,6 +29,7 @@
 				}
 			}
 		</script>
+		{% render "json-ld", post: page %}
 	</head>
 	<body class="post-page">
 		{% render "header" %}

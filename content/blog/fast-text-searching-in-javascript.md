@@ -11,7 +11,7 @@ keywords:
   - horspool
 excerpt: Searching strings in JavaScript is easy right? what about searching through hundreds of megabytes of text or binary or even several gigabytes of POSTed data? Boyer-Moore Horspool to the rescue!
 author: davemackintosh
-published: Tue Oct 15 2019 21:08:52 GMT+0100 (British Summer Time)
+published: 10/15/2019 21:08:52
 template: post
 ---
 

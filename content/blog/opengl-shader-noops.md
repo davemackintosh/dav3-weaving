@@ -9,7 +9,7 @@ keywords:
   - debugging
 excerpt: I'm working on a new cross platform engine for developing visuals on any device. I've spent a few days trying to work out why Linux will compile and run my shaders but not my Android device.
 author: davemackintosh
-published: Tue 11 Feb 2020 09:27:00 GMT+0000
+published: 11/2/2020 09:27:00
 template: post
 ---
 

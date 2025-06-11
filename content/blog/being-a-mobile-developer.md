@@ -10,7 +10,7 @@ keywords:
   - javascript
 excerpt: Dave Mackintosh has developed websites, apps and libraries on mobile since 2012. here's a list of the reasons I can think of why its amazing and sometimes career saving.
 author: davemackintosh
-published: Tue Dec 11 2018 19:55:00 GMT+0000
+published: 12/11/2018 19:55:00
 template: post
 ---
 

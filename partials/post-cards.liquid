@@ -1,0 +1,6 @@
+<nav class="post-cards" aria-label="{{label}}">
+{% for post in posts limit: limit %}
+{% render "post-card", post: post %}
+{% endfor %}
+</nav>
+

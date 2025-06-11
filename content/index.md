@@ -14,12 +14,12 @@ description: With 20 years of software development expertise and a successful 10
 template: home
 ---
 
+{{ page | json }}
+
 # Passionate engineering manager and developer
 
 With over two decades of experience in the software development industry, I have had the privilege of working with esteemed clients like Google, Harrods, Breitling, Debenhams, ABRSM, Sleepio, Skoda, The National Army Museum, and many many local brands. My journey has been defined by a deep commitment to putting people first and ensuring that technology serves as a powerful tool to enhance their lives.
 
 ## Latest posts
 
-{% for post in content.blog %}
-{% render "post-card", post: post %}
-{% endfor %}
+{% render "post-cards", posts: content.blog, label: "Latest posts", limit: 4 %}

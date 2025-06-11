@@ -8,7 +8,7 @@ keywords:
   - babel
   - web midi
 author: davemackintosh
-published: Sun Sep 20 2015 19:55:00 GMT+0000
+published: 09/20/2015 19:55
 template: post
 ---
 
