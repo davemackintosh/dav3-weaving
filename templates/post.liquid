@@ -16,6 +16,8 @@
 		<link rel="stylesheet" href="/public/css/global-styles.css" />
 		<link rel="stylesheet" href="/public/css/post-page.css" />
 
+		<style>{{ extra_css | raw }}</style>
+
 		<script type="application/ld+json">
 			{
 				"@context": "http://schema.org/",
@@ -44,8 +46,7 @@
 				{% endfor %}
 				</ol>
 			</aside>
-			<article>
-				<h1>{{ page.title }}</h1>
+			<article class="contents">
 				{{ page.body | raw }}
 			</article>
 		</main>
