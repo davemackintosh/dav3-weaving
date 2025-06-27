@@ -8,6 +8,16 @@
 			flex: 1;
 			padding: 1rem;
 
+			input {
+				visibility: hidden;
+			}
+
+			.toggle-toc {
+				visibility: hidden;
+				appearance: none;
+				background: transparent;
+			}
+
 			&.contents {
 				position: sticky;
 				top: var(--headerHeight);
@@ -37,6 +47,26 @@
 
 			*:target {
 				scroll-margin-top: calc(var(--headerHeight) * 1.3);
+			}
+		}
+	}
+
+	@media (min-width: 320px) and (max-width: 480px) {
+		main {
+			flex-direction: column;
+
+			aside {
+				height: 1em;
+				transition: height 0.3s linear;
+				overflow: hidden;
+
+				.toggle-toc {
+					visibility: visible;
+				}
+
+				&:target {
+					height: auto;
+				}
 			}
 		}
 	}

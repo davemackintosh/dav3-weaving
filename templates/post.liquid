@@ -38,8 +38,11 @@
 	<body class="post-page">
 		{% render "header" %}
 		<main id="content">
-			<aside class="contents">
-				<strong>Post contents</strong>
+			<aside id="toc" class="contents">
+				<a href="#toc" class="toggle-toc">
+					toggle table of contents
+				</a>
+				<strong>Contents</strong>
 				<ol>
 				{% for entry in page.toc %}
 					<li>

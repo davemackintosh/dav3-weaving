@@ -1,3 +1,22 @@
-main {
-	max-width: 68vw;
+.post-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
+	grid-gap: 1em;
+
+	.post-card {
+		flex: 1;
+
+		:first-child {
+			display: block;
+
+			a,
+			small {
+				display: inline-block;
+			}
+
+			small {
+				opacity: 0.6;
+			}
+		}
+	}
 }

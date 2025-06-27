@@ -1,4 +1,8 @@
 <article class="post-card">
-[{{post.title}}]({{post.route}})
+<header>
+[{{ post.title }}]({{ post.route }}) 
+<small>{{ post.meta.published }}</small>
+</header>
+
 {{post.meta.excerpt}}
 </article>
