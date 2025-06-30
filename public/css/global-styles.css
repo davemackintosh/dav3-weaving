@@ -18,7 +18,14 @@ body {
 	line-height: 1.6em;
 	padding: 0;
 	margin: 0;
-	overflow-x: hidden;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	html,
+	body {
+		font-size: 0.9em;
+	}
 }
 
 @media print {
@@ -138,6 +145,17 @@ main {
 	min-height: 100vh;
 }
 
+pre {
+	max-width: 100%;
+	overflow: auto;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	main {
+		max-width: 98vw;
+	}
+}
+
 footer.site-footer {
 	display: flex;
 	flex-direction: row;
@@ -171,6 +189,7 @@ nav.site-navigation {
 	top: 0;
 	left: 0;
 	right: 0;
+	width: 100%;
 	-webkit-backdrop-filter: blur(4px);
 	backdrop-filter: blur(4px);
 	max-width: 100%;

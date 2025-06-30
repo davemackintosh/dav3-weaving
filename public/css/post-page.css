@@ -8,14 +8,13 @@
 			flex: 1;
 			padding: 1rem;
 
-			input {
-				visibility: hidden;
-			}
-
-			.toggle-toc {
+			#toggle-toc {
 				visibility: hidden;
 				appearance: none;
-				background: transparent;
+			}
+
+			label {
+				display: none;
 			}
 
 			&.contents {
@@ -56,16 +55,37 @@
 			flex-direction: column;
 
 			aside {
-				height: 1em;
-				transition: height 0.3s linear;
-				overflow: hidden;
+				top: var(--headerHeight);
+				bottom: 0;
+				left: 0;
+				right: 0;
+				width: 100%;
+				background-color: var(--background);
+				z-index: 1;
 
-				.toggle-toc {
-					visibility: visible;
+				label {
+					display: inline-block;
+
 				}
 
-				&:target {
-					height: auto;
+				nav {
+					height: 0;
+					transition: height 0.3s linear;
+					overflow: hidden;
+				}
+
+				&:has(#toggle-toc:checked) {
+					nav {
+						height: auto;
+					}
+				}
+			}
+
+			article {
+				padding-top: 0;
+
+				*:target {
+					scroll-margin-top: calc(var(--headerHeight) * 2);
 				}
 			}
 		}

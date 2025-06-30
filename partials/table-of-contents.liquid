@@ -1,0 +1,17 @@
+<aside class="contents">
+	<label for="toggle-toc">
+		toggle table of contents
+	</label>
+	<input type="checkbox" name="toggle-toc" id="toggle-toc">
+	<nav id="toc">
+		<h2>Table of contents</h2>
+		<ol>
+		{% for entry in page.toc %}
+			<li>
+				<a href="#{{ entry.slug }}">{{ entry.text }}</a>
+			</li>
+		{% endfor %}
+		</ol>
+	</nav>
+</aside>
+
