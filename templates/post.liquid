@@ -39,7 +39,9 @@
 		{% render "header" %}
 
 		<main id="content">
-			{% render "table-of-contents", page: page %}
+			<aside class="contents">
+				{% render "table-of-contents", page: page %}
+			</aside>
 			<article class="contents">
 				{{ page.body | raw }}
 			</article>

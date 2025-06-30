@@ -20,7 +20,7 @@ body {
 	margin: 0;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 500px) {
 
 	html,
 	body {
@@ -150,7 +150,7 @@ pre {
 	overflow: auto;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 500px) {
 	main {
 		max-width: 98vw;
 	}

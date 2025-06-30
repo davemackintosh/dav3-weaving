@@ -50,7 +50,7 @@
 		}
 	}
 
-	@media (min-width: 320px) and (max-width: 480px) {
+	@media (min-width: 320px) and (max-width: 500px) {
 		main {
 			flex-direction: column;
 
