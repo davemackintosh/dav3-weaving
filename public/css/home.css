@@ -6,15 +6,15 @@
 	.post-card {
 		flex: 1;
 
-		:first-child {
+		header {
 			display: block;
 
 			a,
-			small {
+			time {
 				display: inline-block;
 			}
 
-			small {
+			time {
 				opacity: 0.6;
 			}
 		}

@@ -1,7 +1,7 @@
 <article class="post-card">
 <header>
-[{{ post.title }}]({{ post.route }}) 
-<small>{{ post.meta.published }}</small>
+[{{ post.title }}]({{ post.route }})
+<time datetime="{{ post.meta.published }}">{{ post.meta.published }}</time>
 </header>
 
 {{post.meta.excerpt}}

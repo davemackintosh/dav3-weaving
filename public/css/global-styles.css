@@ -120,6 +120,7 @@ blockquote {
 	position: relative;
 	padding: 0 3em;
 	border-left-width: 8px;
+	z-index: 0;
 
 	&:before,
 	&:after {
@@ -199,6 +200,7 @@ nav.site-navigation {
 	-webkit-backdrop-filter: blur(4px);
 	backdrop-filter: blur(4px);
 	max-width: 100%;
+	z-index: 1;
 
 	.skip-to-content {
 		position: absolute;

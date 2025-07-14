@@ -30,6 +30,19 @@
 		</main>
 
 		{% render "footer" %}
+
+		<script>
+			// Yeah, yeah. There's JavaScript here. I know-
+			// It's actually good for the reader though, toggling the TOC with pure CSS is beyond me
+			// so I've just solved it by debouncing the click event and unchecking the box that the CSS uses.
+			document.addEventListener("DOMContentLoaded", () => {
+				document.querySelector("aside.contents").addEventListener("click", (e) => {
+					if (e.target.tagName.toLowerCase() === "a") {
+						document.querySelector("aside.contents input").checked = false;
+					}
+				})
+			})
+		</script>
 	</body>
 </html>
 

@@ -13,7 +13,8 @@
 				appearance: none;
 			}
 
-			label {
+			label,
+			input {
 				display: none;
 			}
 
@@ -42,6 +43,7 @@
 
 			@container (width > 600px) {
 				padding-right: 10%;
+				max-width: 100%;
 			}
 
 			*:target {
@@ -50,7 +52,7 @@
 		}
 	}
 
-	@media (min-width: 320px) and (max-width: 500px) {
+	@media (max-width: 1024px) {
 		main {
 			flex-direction: column;
 
@@ -63,7 +65,8 @@
 				background-color: var(--background);
 				z-index: 1;
 
-				label {
+				label,
+				input {
 					display: inline-block;
 
 				}
@@ -85,6 +88,7 @@
 				padding-top: 0;
 
 				*:target {
+					overflow-anchor: none;
 					scroll-margin-top: calc(var(--headerHeight) * 2);
 				}
 			}
