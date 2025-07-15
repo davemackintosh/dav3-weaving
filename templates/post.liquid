@@ -25,6 +25,7 @@
 				{% render "table-of-contents", page: page %}
 			</aside>
 			<article class="contents">
+				<time datetime="{{ page.meta.published }}">{{ page.meta.published | date: "%d/%m/%Y" }}</time>
 				{{ page.body | raw }}
 			</article>
 		</main>

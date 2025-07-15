@@ -2,21 +2,4 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
 	grid-gap: 1em;
-
-	.post-card {
-		flex: 1;
-
-		header {
-			display: block;
-
-			a,
-			time {
-				display: inline-block;
-			}
-
-			time {
-				opacity: 0.6;
-			}
-		}
-	}
 }

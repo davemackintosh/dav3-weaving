@@ -1,0 +1,21 @@
+.post-card {
+	flex: 1;
+
+	header {
+		display: block;
+
+		a,
+		time {
+			display: inline;
+		}
+
+		h3 {
+			font-size: 1.3em;
+
+			&:before {
+				content: "";
+				display: none;
+			}
+		}
+	}
+}
